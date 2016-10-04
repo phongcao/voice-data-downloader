@@ -9,6 +9,7 @@
 #import <Foundation/Foundation.h>
 #import "DHxlsReader.h"
 #import "VoiceDataDownloader.h"
+#import "VoiceDataHelper.h"
 
 // Sign up for subscription key at https://www.microsoft.com/cognitive-services
 #define TEXT_TO_SPEECH_KEY      "Insert your subscription key here"

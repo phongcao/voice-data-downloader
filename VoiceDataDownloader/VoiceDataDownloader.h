@@ -18,6 +18,8 @@ typedef void (^TextToSpeechAuthenticationCallback)(NSInteger statusCode, NSError
 @property (nonatomic, nonnull, readonly)    NSString * subscriptionKey;
 @property (nonatomic, readonly)             BOOL downloadInProgress;
 
++ (nonnull NSMutableData *)addWavHeader:(nonnull NSData *)wavNoheader;
+
 // Class initializer
 - (nullable instancetype)initWithSubscriptionKey:(nonnull NSString *)subscriptionKey;
 
